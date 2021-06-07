@@ -1,0 +1,29 @@
+# mac
+.DS_Store
+
+# package directories
+node_modules
+jspm_packages
+.build/
+
+# Serverless directories
+.serverless
+
+# DynamoDb offline directory
+.dynamodb
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# vscode
+.vscode
+
+# testing
+coverage
+
+#sonar
+.scannerwork
