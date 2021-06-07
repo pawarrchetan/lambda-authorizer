@@ -30,7 +30,7 @@ Internal auth works with standard JWT tokens that include the user's identity on
 Example JWT payload:
 ```
 {
-  "callerIdentity": "arn:aws:sts::xxxxxxxxxx:assumed-role/ep_plyg_access_admin/awsmfa_20210226T120444",
+  "callerIdentity": "arn:aws:sts::xxxxxxxxxx:assumed-role/admin/awsmfa_20210226T120444",
   "policies": [
     {
       "Version": "2012-10-17",
